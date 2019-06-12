@@ -9,5 +9,7 @@ features:
   details: 看似牛皮，实则工具人
 - title: 技术支持：dp_joker
   details: 要恰饭的🐎
-footer: Copyright © 2019-Now Xuan Yue Team
+footer: MIT Licensed | Copyright © 2019-Now Xuan Yue Team
 ---
+
+# 公告栏
