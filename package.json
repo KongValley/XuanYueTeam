@@ -1,0 +1,21 @@
+{
+  "name": "xuan_yue_team",
+  "version": "1.0.0",
+  "description": "工会站点",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "serve": "yarn docs:dev"
+  },
+  "author": "Chara(dp_joker)",
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.9"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "commitizen": "^3.1.1"
+  }
+}
