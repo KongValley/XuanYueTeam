@@ -7,7 +7,7 @@
  */
 module.exports = {
   title: 'Xuan Yue Team',
-  description: 'Xuan Yue Team 内部攻略集合',
+  description: '内部攻略集合处',
   base: '/XuanYueTeam/',
   head:[
     ['link',{ rel: 'icon', href: 'https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/blog-img/20181014154421.ico'}]

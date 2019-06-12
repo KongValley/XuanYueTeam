@@ -1,17 +1,13 @@
-<!--
- * @Author: Chara
- * @Date: 2019-06-12
- * @LastEditors: Chara
- * @LastEditTime: 2019-06-12
- * @Description: 
- -->
 ---
 home: true
 actionText: 开冲 🚀
 actionLink: /xuanyueteam/
 features:
 - title: 一个美服工会
-- title: 会长: Xuan_Yue
-- title: 
-footer: Copyright © 2018-Now Xuan Yue Team
+  details: 人少，但是都很活跃😜
+- title: 会长：Xuan_Yue
+  details: 看似牛皮，实则工具人
+- title: 技术支持：dp_joker
+  details: 要恰饭的🐎
+footer: Copyright © 2019-Now Xuan Yue Team
 ---
