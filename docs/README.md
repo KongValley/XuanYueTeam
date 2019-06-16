@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: https://blog-chara-img.oss-cn-shanghai.aliyuncs.com/xuan-yue-team/avator.jpg
 actionText: 开冲 🚀
 actionLink: /xuanyueteam/
 features:

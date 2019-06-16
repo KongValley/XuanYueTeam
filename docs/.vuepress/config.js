@@ -3,7 +3,7 @@
  * @LastEditors: Chara
  * @Description: config
  * @Date: 2019-02-15 22:32:00
- * @LastEditTime: 2019-06-12
+ * @LastEditTime: 2019-06-16 14:41:38
  */
 module.exports = {
   title: 'Xuan Yue Team',
@@ -21,7 +21,7 @@ module.exports = {
       },{
         text: '攻略集合',
         items: [
-          { text: '钓鱼', link: '/fishing/' },
+          { text: '钓鱼', link: '/fish/' },
           { text: '龙', link: '/dargon/'},
           { text: '材料', link: '/material/'}
         ]
@@ -29,14 +29,14 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/KongValley/XuanYueTeam' },
     ],
     sidebar: {
-      // '/booknote/': [
-      //   {
-      //     title: '目录',
-      //     collapsable: true,
-      //     children: [
-      //       ''
-      //     ]
-      //   },
+      '/fish/': [
+        {
+          title: '钓鱼指南',
+          collapsable: true,
+          children: [
+            'water'
+          ]
+        },
       //   {
       //     title: '你不知道的JavaScript',
       //     collapsable: true,
@@ -70,11 +70,15 @@ module.exports = {
             
       //     ]
       //   }
-      // ]
+      ]
     }
   },
   markdown: {
-    toc: { includeLevel: [1, 2, 3] }
+    extendMarkdown: md => {
+      md.set({ toc: { includeLevel: [1, 2, 3] } })
+      md.use(require('markdown-it-footnote'))
+    }
+    
   },
   plugins: ['@vuepress/back-to-top'] 
 }
