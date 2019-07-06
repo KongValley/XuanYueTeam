@@ -3,7 +3,7 @@
  * @LastEditors: Chara
  * @Description: config
  * @Date: 2019-02-15 22:32:00
- * @LastEditTime: 2019-06-16 14:41:38
+ * @LastEditTime: 2019-07-06 13:05:17
  */
 module.exports = {
   title: 'Xuan Yue Team',
@@ -14,11 +14,18 @@ module.exports = {
   ],
   themeConfig: {
     lastUpdated: '上次更新于',
+    repo: 'KongValley/XuanYueTeam',
+    docsRepo: 'KongValley/XuanYueTeam',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    editLinks: true,
+    editLinkText: '在Github上编辑此页',
     nav: [
       { 
         text: '萌新入坑',
         link: '/guide/'
-      },{
+      },
+      {
         text: '攻略集合',
         items: [
           { text: '钓鱼', link: '/fish/' },
@@ -26,7 +33,9 @@ module.exports = {
           { text: '材料', link: '/material/'}
         ]
       },
-      { text: 'GitHub', link: 'https://github.com/KongValley/XuanYueTeam' },
+      {
+        text: '官方Wiki', link: 'https://trove.fandom.com/wiki/Trove_Wiki'
+      },
     ],
     sidebar: {
       '/fish/': [
@@ -34,26 +43,12 @@ module.exports = {
           title: '钓鱼指南',
           collapsable: true,
           children: [
-            'water'
+            'water',
+            'chocolate',
+            'lava',
+            'plasma'
           ]
         },
-      //   {
-      //     title: '你不知道的JavaScript',
-      //     collapsable: true,
-      //     children: [
-      //       '你不知道的JavaScript/上卷笔记',
-      //       '你不知道的JavaScript/中卷笔记',
-      //       '你不知道的JavaScript/下卷笔记'
-      //     ]
-      //   },
-      //   {
-      //     title: 'JavaScript核心技术开发解密',
-      //     collapsable: true,
-      //     children: [
-      //       'JavaScript核心技术开发解密/第一章'
-      //     ]
-      //   }
-      // ],
       // '/blog-build/': [
       //   {
       //     title: 'Hexo',

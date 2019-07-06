@@ -34,4 +34,10 @@
 
 # 传送门
 
-[普通水](/fish/water.html)
+[普通水](/fish/water.html)  [糖浆](/fish/chocolate.html)  [岩浆](/fish/lava.html)  [电浆](/fish/plasma.html)
+
+
+
+# 致谢
+
+Ginne（全鱼资料翻译）
