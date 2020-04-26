@@ -13,12 +13,12 @@
   },
   "author": "Chara(dp_joker)",
   "dependencies": {
-    "markdown-it-footnote": "^3.0.1",
-    "vuepress": "^1.0.0-alpha.9"
+    "markdown-it-footnote": "^3.0.2",
+    "vuepress": "^1.4.1"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
-    "commitizen": "^3.1.1",
+    "@vuepress/plugin-back-to-top": "^1.4.1",
+    "commitizen": "^3.1.2",
     "cz-conventional-changelog": "^2.1.0",
     "standard-version": "^6.0.1"
   },
